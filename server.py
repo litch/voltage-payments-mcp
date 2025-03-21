@@ -12,7 +12,7 @@ try:
     voltage_api = VoltagePaymentsAPI()
 
     # Add a tool to get all wallets
-    @mcp.tool(name="voltage://get_all_organizations_wallets_as_user")
+    @mcp.tool()
     def get_all_wallets() -> list:
         """Get all wallets for the organization"""
         print("Getting all wallets...", file=sys.stderr)
