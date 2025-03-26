@@ -2,6 +2,12 @@
 
 This repository contains a Model Context Protocol (MCP) server that provides a programmatic interface to the Voltage Payments API. The server dynamically exposes API endpoints as callable tools, allowing for seamless integration with AI assistants and other systems.
 
+## Warning
+
+This work was completed during FOSS Friday at Voltage and released as open source for educational purposes.  It should go without saying, (but hey, this is the internet, so who knows) but this can have unexpected side effects.  If you run this MCP server with an API key with _real money_, it can be used to make _real payments_.  Putting that kind of power into the hands of an LLM is #reckless.  I think it's kind of awesome, but know there could be surprises.
+
+Use at your own risk, etc.
+
 ## Setup and Configuration
 
 ### Environment Variables
